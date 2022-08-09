@@ -6,7 +6,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'smoke': "url('/930Z.gif')",
+       
+      }
+
+
+    },
   },
   plugins: [
     require("flowbite/plugin"),
