@@ -54,16 +54,16 @@ return(
             <div className="mt-16 ml-16 mr-16"> 
 
              
-            <input type="text" className="w-100"
+            <input type="text" 
                  placeholder="First Name"
                  value={first_name}
-                 className="block w-full p-3 bg-gray-100 border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0"
+                 className = "block w-full p-3 bg-gray-100 border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0"
                  onChange={(e)=>setFirstName(e.target.value)}
                  
                  /> 
                  <br/>
 
-                <input type="text" className="w-100" 
+                <input type="text"  
                 placeholder="Last Name"                 
                 value={last_name}
                 className="block w-full p-3 bg-gray-100 border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0"
@@ -72,7 +72,7 @@ return(
                  <br/>
 
 
-                <input type="email" className="w-100" 
+                <input type="email" 
                 placeholder="E-mail"                 
                 value={email}
                 className="block w-full p-3 bg-gray-100 border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0"
@@ -81,7 +81,7 @@ return(
 
 <br/>
 
-                <input type="tel" className="w-100" 
+                <input type="tel" 
                 placeholder="2547XXXXXX"                 
                 value={phone}
                 className="block w-full p-3 bg-gray-100 border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0"
@@ -90,7 +90,7 @@ return(
                 /> 
  <br/>
   
-                <input type="password" className="w-100" placeholder="Enter Password" 
+                <input type="password"  placeholder="Enter Password" 
                 autoComplete="false"                
                 value={password}
                 className="block w-full p-3 bg-gray-100 border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0"
@@ -99,7 +99,7 @@ return(
                 /> 
  <br/>
 
-                <input type="password" className="w-100" placeholder="Confirm Password"
+                <input type="password"  placeholder="Confirm Password"
                 autoComplete="false"               
                 value={confirmPassword}
                 className="block w-full p-3 bg-gray-100 border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0"
