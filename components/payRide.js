@@ -17,7 +17,7 @@ function PayRide () {
     axios.defaults.headers.common.Authorization = token;
 
     const api = axios.create({
-        baseURL:'https://metro-card.herokuapp.com/',
+        baseURL:'https://metro-card.p.rapidapi.com',
             headers:{
     Authorization:`Bearer ${token}`,
     'Content-Type' : 'application/json',
