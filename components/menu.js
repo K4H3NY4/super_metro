@@ -15,7 +15,7 @@ function Menu () {
                 'Content-Type' : 'application/json',
                 'Accept': 'application/json'}
             } ).then(res=>res.data)
-    const {data, error} = useSWR('https://metro-card.herokuapp.com/pass/profile',fetcher,
+    const {data, error} = useSWR('https://metro-card.p.rapidapi.com/pass/profile',fetcher,
     {
        refreshInterval: 500,
         shouldRetryOnError: true,
