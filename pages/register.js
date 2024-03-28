@@ -3,7 +3,7 @@ import axios from 'axios';
 import Link from 'next/link';
 
 const api = axios.create({
-    baseURL:'https://metro-card.p.rapidapi.com/'
+    baseURL:'https://metro-card.onrender.com/'
     
 })
 
