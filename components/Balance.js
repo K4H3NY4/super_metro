@@ -13,7 +13,7 @@ function Balance () {
    
     const token =(getCookie('token'));
     const fetcher = (url) => axios.get(url,{headers:{Authorization:`Bearer ${token}`,'Content-Type' : 'application/json','Accept': 'application/json'}}).then(res=>res.data.balance)
-    const {data, error} = useSWR('https://metro-card.p.rapidapi.com/pass/balance',fetcher,
+    const {data, error} = useSWR('https://metro-card.onrender.com/pass/balance',fetcher,
     {
         refreshInterval: 500,
         shouldRetryOnError: true,
