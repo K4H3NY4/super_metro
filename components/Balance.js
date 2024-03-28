@@ -21,7 +21,7 @@ function Balance () {
         });
 
    var newData = JSON.stringify(data);
-  // console.log(data);
+   console.log(data);
 
 return(
 
