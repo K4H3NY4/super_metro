@@ -18,7 +18,7 @@ function PaymentHistory () {
                 'Content-Type' : 'application/json',
                 'Accept': 'application/json'}
             } ).then(res=>res.data.pass_payments)
-    const {data, error} = useSWR('https://metro-card.p.rapidapi.com/pass/all-payments',fetcher,
+    const {data, error} = useSWR('https://metro-card.onrender.com/pass/all-payments',fetcher,
     {
        refreshInterval: 500,
         shouldRetryOnError: true,
